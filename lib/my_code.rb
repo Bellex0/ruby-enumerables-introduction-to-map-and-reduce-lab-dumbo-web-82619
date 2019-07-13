@@ -43,4 +43,6 @@ def reduce_to_total(source_array, starting_point)
   starting_point = 0
   source_array.each do |number|
     sum +=number 
-  sum(source_array)
+  end
+  return sum
+end
