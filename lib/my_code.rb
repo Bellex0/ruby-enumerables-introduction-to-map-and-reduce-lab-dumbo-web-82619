@@ -58,7 +58,7 @@ end
 def reduce_to_any_true(source_array)
   if source_array.any?
     return true
-  elsif souce_array.none?
+  else souce_array.none?
   return false
 end
 end
